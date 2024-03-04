@@ -1,8 +1,11 @@
+import Lists from "./Components/Lists";
+
 function App() {
   return (
-    <>
-      <h1>React Virtualized</h1>
-    </>
+    <div>
+      <h1 className="text-3xl text-center py-5">React Virtualized</h1>
+      <Lists/>
+    </div>
   );
 }
 
