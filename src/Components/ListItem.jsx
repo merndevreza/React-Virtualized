@@ -1,7 +1,6 @@
-const ListItem = ({ item }) => {
-  const { title, image, description } = item;
+const ListItem = ({ title, image, description,style }) => { 
   return (
-    <div className="bg-green-50 p-4 border-b-2 mb-5">
+    <div style={style} className="bg-green-50 border-b-2">
       <img src={image} alt="placeholder image" />
       <h3 className="text-xl py-3 font-medium text-red-500">{title}</h3>
       <p>{description}</p>
